@@ -309,8 +309,24 @@ a.float:hover + div.label-container{
   }
 
   /*Media Queries*/
+  @media (max-width: 325px) {
+    .float {
+      display: none;
+    }
+  }
 
   @media (max-width: 365px){
+
+    .button {
+      margin-bottom: 1rem;
+    }
+
+    .float {
+      margin-left: 1rem;
+    }
+  }
+
+  @media (max-width: 415px) {
     .nav-quote {
       display: none;
     }
@@ -329,10 +345,6 @@ a.float:hover + div.label-container{
       margin-top: 1rem;
     }
 
-    .button {
-      margin-bottom: 1rem;
-    }
-
     .bottom {
       display: none;
     }
@@ -344,12 +356,59 @@ a.float:hover + div.label-container{
       margin-left: 4.5rem;
     }
 
+    .cards {
+      display: flex;
+      flex-direction: column;
+    }
+
     .float {
-      margin-right: 4.5rem;
+      margin-right: 4.2rem;
+    }
+  }
+
+  @media (max-width: 770px){
+    .small-image-top {
+      display: none;
+    }
+
+    .welcome {
+      margin-top: 1rem;
+    }
+
+    .home {
+      height: 600px;
+    }
+
+    .bottompar {
+      margin-left: 100px;
+      margin-top: 20px;
+    }
+
+    .bottom {
+      height: 700px;
     }
 
     .cards {
       display: flex;
       flex-direction: column;
+      margin-left: 21rem;
+    }
+  }
+
+  @media (max-width: 455px){
+    .nav-quote {
+      display: none;
+    }
+
+    .bottom {
+      margin-top: 10rem;
+    }
+
+    .bottompar {
+      margin-top: 0;
+    }
+
+    .cards {
+      margin-left: 5rem;
     }
   }
