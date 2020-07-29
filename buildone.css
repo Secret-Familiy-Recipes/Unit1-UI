@@ -113,6 +113,7 @@ a.float + div.label-container {
 a.float:hover + div.label-container{
   visibility: visible;
   opacity: 1;
+  cursor: pointer;
 }
 
 .navbar ul {
@@ -141,6 +142,7 @@ a.float:hover + div.label-container{
 
 .button:hover {
   background-color: white;
+  cursor: pointer;
 }
 
 .navhr {
